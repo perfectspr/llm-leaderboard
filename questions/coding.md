@@ -21,9 +21,7 @@ SELECT a AS fibonacci_number FROM fibonacci WHERE n = :n;
 ***
 How can I install the Pandas package in Python?
 ### Answer
-python -m pip install pandas
-or
-pip install pandas
+`python -m pip install pandas` or `pip install pandas`
 ***
 Edit the following code to print out all even numbers from 1 to 10.
 ```python

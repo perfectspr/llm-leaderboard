@@ -30,3 +30,16 @@ The ball is in the bedroom
 A boy runs down the stairs in the morning and sees a tree in his living room, and some boxes under the tree. What day is it?
 ### Answer
 Christmas
+***
+Find one of the following options that is different from the others:(1) water(2) the sun (3)gasoline (4) the wind (5) cement
+### Answer
+Options (1) water, (2) the sun, (3) gasoline, and (4) the wind can all be sources of energy. Water can be used in hydropower, the sun provides solar energy, gasoline is a fossil fuel, and the wind is used in wind power. However, cement is not a source of energy but a building material.
+***
+Cherries correspond to red. What does milk correspond to? Choose one of the following options:
+1. wet
+2. cold
+3. white
+4. sweet
+5. cooked
+### Answer
+white
