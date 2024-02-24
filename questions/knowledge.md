@@ -1,28 +1,28 @@
----
+***
 Towards which part of a man's body does a tie hang if he is performing a handstand?
-# Answer
+### Answer
 Towards his head
----
+***
 Who was the president in 2003 and why?
-# Answer
+### Answer
 In 2003, the President of the United States was George W. Bush. He was the 43rd President, serving from January 20, 2001, to January 20, 2009. George W. Bush was elected President in the 2000 election, having previously served as the Governor of Texas. He was then re-elected in the 2004 election for a second term.
 
 The reason why George W. Bush was president in 2003 is simply that he won the 2000 presidential election, securing the majority of electoral votes against his opponent, Vice President Al Gore, in a highly contested election that included a significant dispute over the vote count in Florida. After a series of court challenges, the United States Supreme Court effectively halted the recount in Florida, resulting in Bush winning the state's electoral votes and thus the presidency. Bush was inaugurated as President on January 20, 2001, and served during 2003 as part of his first term in office.
----
+***
 Why can camels survive for long without water? 
-# Answer
+### Answer
 Camels use the fat in their humps to keep them filled with energy and hydration for long periods of time.
----
+***
 What is the capital of France?
-# Answer
+### Answer
 Paris
----
+***
 Who killed George Washington
-# Answer
+### Answer
 George Washington was not killed; he died of natural causes. On December 14, 1799, Washington passed away at his home, Mount Vernon, in Virginia. The cause of his death is generally attributed to a throat infection, which developed into a severe respiratory illness and ultimately led to his demise. At the time of his death, Washington was 67 years old.
----
+***
 Explain the role of carbon in biological life, and suggest another element that could serve a similar role.
-# Answer
+### Answer
 Carbon plays a central role in biological life due to several unique properties:
 
 1. **Versatility in Forming Bonds:** Carbon atoms can form stable covalent bonds with many other elements, including themselves. This ability allows for the creation of complex and diverse organic molecules.
@@ -52,9 +52,9 @@ However, there are significant differences that make silicon less suitable for l
 3. **Biological Reactivity:** Silicon-based molecules are generally less suited to participate in the types of fast and versatile reactions that characterize biological systems.
 
 While silicon-based life is a popular subject in science fiction, we have no evidence of its existence, and carbon remains unparalleled in its ability to form the complex, stable, and diverse molecules required for life as we know it.
----
+***
 Please describe what a snail looks like.
-# Answer
+### Answer
 A snail is a small, slow-moving mollusk with a soft, unsegmented body. It is most commonly recognized by its prominent shell, which it carries on its back. Here are some key features of a snail:
 
 1. **Shell**: The shell is typically coiled or spiral in shape, offering protection to the snail's delicate body. Shells can vary widely in color and pattern, often reflecting the snail's habitat.
