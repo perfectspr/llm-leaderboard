@@ -1,24 +1,28 @@
 ***
 Generate a bash script to create 10 files, with the names A1.txt through A10.txt
 ### Answer
+```bash
 for i in {1..10}
 do
   touch A$i.txt
 done
+```
 ***
 Write a Oracle SQL query to find the nth number in the Fibonacci Sequence.
 ### Answer
+```sql
 WITH fibonacci (n, a, b) AS (
   SELECT 1, 0, 1 FROM dual
   UNION ALL
   SELECT n+1, b, a+b FROM fibonacci WHERE n < :n
 )
 SELECT a AS fibonacci_number FROM fibonacci WHERE n = :n;
+```
 ***
 How can I install the Pandas package in Python?
 ### Answer
 python -m pip install pandas
-Or
+or
 pip install pandas
 ***
 Edit the following code to print out all even numbers from 1 to 10.
