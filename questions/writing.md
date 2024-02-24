@@ -27,7 +27,9 @@ Joe
 ***
 ### Writing 4
 Translate the following text to Spanish in both the formal and informal forms: 
+
 'Would you like to order a pillow?'
 ### Answer
 Formal: ¿Le gustaría ordenar una almohada?
+
 Informal: ¿Te gustaría ordenar una almohada?
