@@ -1,4 +1,5 @@
 ***
+### Instruction 1
 Please identify whether Question 1 has the same meaning as Question 2. The answer should be exactly "Yes" or "No".
 Question 1: How can I create the most popular question on Quora ?
 Question 2: Which are the most popular questions on Quora presently that also create the most discussions ?
@@ -6,10 +7,12 @@ Tell me the answer without any other reasons and explanations.
 ### Answer
 No
 ***
+### Instruction 2
 Write a sentence where every word starts with the letter A
 ### Answer
 N/A
 ***
+### Instruction 3
 Generate a list of three made-up book titles along with their authors and genres. Provide them in JSON format with the following keys: book_id, title, author, genre.
 ### Answer
 ```json
@@ -35,6 +38,7 @@ Generate a list of three made-up book titles along with their authors and genres
 ]
 ```
 ***
+### Instruction 4
 You will be provided with text delimited by triple quotes. 
 If it contains a sequence of instructions, re-write those instructions in the following format:
 
@@ -55,6 +59,7 @@ Step 5 - After a few minutes, take out the tea bag.
 Step 6 - Add some sugar or milk to taste.
 Step 7 - Enjoy your delicious cup of tea!
 ***
+### Instruction 5
 Your task is to determine if the student's solution is correct or not.
 To solve the problem do the following:
 - First, work out your own solution to the problem. 

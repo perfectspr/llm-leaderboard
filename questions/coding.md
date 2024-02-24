@@ -1,4 +1,5 @@
 ***
+### Coding 1
 Generate a bash script to create 10 files, with the names A1.txt through A10.txt
 ### Answer
 ```bash
@@ -8,6 +9,7 @@ do
 done
 ```
 ***
+### Coding 2
 Write a Oracle SQL query to find the nth number in the Fibonacci Sequence.
 ### Answer
 ```sql
@@ -19,10 +21,12 @@ WITH fibonacci (n, a, b) AS (
 SELECT a AS fibonacci_number FROM fibonacci WHERE n = :n;
 ```
 ***
+### Coding 3
 How can I install the Pandas package in Python?
 ### Answer
 `python -m pip install pandas` or `pip install pandas`
 ***
+### Coding 4
 Edit the following code to print out all even numbers from 1 to 10.
 ```python
 for i in range(1,11):
@@ -36,6 +40,7 @@ for i in range(1,11):
 ```
 
 ***
+### Coding 5
 Create a function to calculate the area of a given circle.
 ### Answer
 ```python
@@ -43,6 +48,7 @@ def area_circle(radius):
     return 3.14 * (radius**2)
 ```
 ***
+### Coding 6
 Write a Python program that prints the value of every tree node value of a binary tree.
 ### Answer
 To print the value of every node in a binary tree, we first need to define the structure of a binary tree. A binary tree is a data structure where each node has at most two children, referred to as the left child and the right child.
@@ -111,6 +117,7 @@ def print_tree_post_order(node):
         print(node.value)
 ```
 ***
+### Coding 7
 What is the difference between multiprocessing and multithreading in Python?
 ### Answer
 To print the value of every node in a binary tree, we first need to define the structure of a binary tree. A binary tree is a data structure where each node has at most two children, referred to as the left child and the right child.
@@ -179,6 +186,7 @@ def print_tree_post_order(node):
         print(node.value)
 ```
 ***
+### Coding 8
 Multiprocessing and multithreading are both approaches to achieve parallelism and concurrency in Python, allowing a program to perform multiple operations at once. However, they work in different ways and are suitable for different types of tasks. Here's a brief overview of the differences:
 
 **Multithreading:**
