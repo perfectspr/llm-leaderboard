@@ -3,6 +3,7 @@
 Evaluating the capabilities of large language models is very difficult. There are already many public leaderboards that do this work. However, public leaderboards are often prone to malicious manipulation and some evaluation benchmarks are not suitable for real application scenarios. So I decided to create my own assessment benchmark and evaluate of my favourite models.
 
 ### Questions
+
 I collected 61 test questions from the Internet,  it includes:
 
 * [Knowledge](questions/knowledge.md) (7)
@@ -10,19 +11,20 @@ I collected 61 test questions from the Internet,  it includes:
 * [Censorship](questions/censorship.md) (6)
 * [Instruction](questions/instruction.md) (6)
 * [Math](questions/math.md) (7)
-* [Extraction](questions/extraction.d) (7)
+* [Extraction](questions/extraction.md) (7)
 * [Reasoning](questions/reasoning.md) (10)
 * [Summarizing](questions/summarizing.md) (6)
 * [Writing](questions/writing.md) (4)
 
 ### My favourite models
+
 * [openchat-3.5-0106.Q8_0.gguf](https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF)
 * [gemma-2b-it.Q8_0.gguf](https://huggingface.co/brittlewis12/gemma-2b-it-GGUF)
 * [gemma-7b-it.Q8_0-v2.gguf](https://huggingface.co/sayhan/gemma-7b-it-GGUF-quantized)
 * [qwen1_5-1_8b-chat-q8_0.gguf](https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-GGUF)
 * [phi-2.Q8_0.gguf](https://huggingface.co/TheBloke/phi-2-GGUF)
 
-34B, MoE and 70B models is comming soon!
+34B, MoE and 70B models are comming soon!
 
 ### Evaluation tools
 
@@ -39,4 +41,16 @@ I collected 61 test questions from the Internet,  it includes:
 | qwen1_5-1_8b-chat-q8_0.gguf  | 24  | 3 | 5 | 3 | 2 | 0 | 5 | 2 | 2 | 2 |
 | phi-2.Q8_0.gguf  | 24  | 6 | 4 | 5 | 3 | 2 | 1 | 2 | 1 | 0 |
 
-gemma-2b-it is the best 2b models that I have tested, but there is still a big gap with the 7b models.
+#### Noetes
+* gemma-2b-it is the best 2b models that I have tested, but there is still a big gap with the 7b models.
+* gemma-7b-it is worse than gemma-2b-it, it may caused by GGUF issue. I will replace it with another version later. 
+
+### Detailed result
+
+* [openchat-3.5-0106.Q8_0.gguf](./results/openchat.md)
+* [gemma-2b-it.Q8_0.gguf](./results/gemma-2b.md)
+* [gemma-7b-it.Q8_0-v2.gguf](./results/gemma-7b.md)
+* [qwen1_5-1_8b-chat-q8_0.gguf](./results/qwen-1.5-1.8B.md)
+* [phi-2.Q8_0.gguf](./results/phi-2.csv)
+
+
