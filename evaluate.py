@@ -34,6 +34,7 @@ def generate(llm, prompt):
             {"role": "user", "content": prompt},
         ],
         temperature=0.1,
+        max_tokens=1024,
     )["choices"][0]["message"]["content"].strip()
 
 
@@ -45,6 +46,7 @@ def main(model_config_file):
         model_path=model_path,
         chat_format=config["chatFormat"],
         n_gpu_layers=100,
+        n_threads=6,
         n_ctx=config["context"],
         verbose=False,
     )
