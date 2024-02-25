@@ -1,0 +1,6 @@
+{
+  "name": "ogno-7b",
+  "chatFormat": "llama-2",
+  "modelPath": "OGNO-7B.Q8_0.gguf",
+  "context": 32768
+}

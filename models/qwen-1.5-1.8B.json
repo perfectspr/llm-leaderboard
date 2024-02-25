@@ -1,0 +1,6 @@
+{
+  "name": "qwen-1.5-1.8B",
+  "chatFormat": "qwen",
+  "modelPath": "qwen1_5-1_8b-chat-q8_0.gguf",
+  "context": 32768
+}
