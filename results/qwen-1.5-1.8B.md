@@ -295,6 +295,7 @@ for file in $file_names; do
     file_path="${file_path%.*}"
     file_path="${file_path%.*}"
     file_path="${file_path
+```
 ***
 ### Coding 2
 Write a Oracle SQL query to find the nth number in the Fibonacci Sequence.
@@ -502,6 +503,7 @@ FROM (
  FROM (
  SELECT num
  FROM (
+```
 ***
 ### Coding 3
 How can I install the Pandas package in Python?
