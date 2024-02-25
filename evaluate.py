@@ -30,7 +30,10 @@ def load_questions():
 def generate(llm, prompt):
     return llm.create_chat_completion(
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
+            {
+                "role": "system",
+                "content": "You are a helpful assistant. I will provide you some tasks or questions, please try your best to solve them, I'm going to tip $200 for a perfect solution!",
+            },
             {"role": "user", "content": prompt},
         ],
         temperature=0.1,
