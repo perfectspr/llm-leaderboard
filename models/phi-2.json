@@ -1,6 +1,6 @@
 {
   "name": "phi-2",
-  "chatFormat": "alpaca",
+  "chatFormat": "chatml",
   "modelPath": "phi-2.Q8_0.gguf",
   "context": 2048
 }
