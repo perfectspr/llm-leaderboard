@@ -1,0 +1,7 @@
+{
+  "name": "Nous-Hermes-2-Mixtral-8x7B-DPO",
+  "chatFormat": "chatml",
+  "modelPath": "Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf",
+  "context": 8192,
+  "gpuLayers": "26"
+}

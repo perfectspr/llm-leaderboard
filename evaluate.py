@@ -23,7 +23,7 @@ def load_questions():
                     qid = question.split("\n")[0].replace("### ", "").strip()
                     q = question.replace(question.split("\n")[0], "").strip()
                     a = answer.strip()
-                    questions.append(dict(qid=qid, question=q, answer=answer))
+                    questions.append(dict(qid=qid, question=q, answer=a))
     return questions
 
 
@@ -45,12 +45,14 @@ def main(model_config_file):
     with open(model_config_file) as f:
         config = json.load(f)
     model_path = os.path.join(MODEL_ROOT_PATH, config["modelPath"])
+    print(config)
+
     llm = Llama(
         model_path=model_path,
         chat_format=config["chatFormat"],
-        n_gpu_layers=100,
+        n_gpu_layers=int(config.get("gpuLayers", 100)),
         n_threads=6,
-        n_ctx=config["context"],
+        n_ctx=int(config.get("context", 8192)),
         verbose=False,
     )
     questions = load_questions()
