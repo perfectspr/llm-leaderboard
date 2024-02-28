@@ -96,6 +96,7 @@ SEAT
 COUNTRY OF ORIGIN
 - Italy```
 ### Answer
+```html
 <div>
   <p>Introducing our beautiful collection of medieval-style office furniture, including file cabinets, desks, bookcases, and conference tables. Choose from a variety of shell colors and base coatings. You can opt for plastic front and backrest decoration (SWC-100) or full decoration with 10 fabrics and 6 leathers (SWC-110). Base coating options include stainless steel, matte black, glossy white, or chrome. The chair is available with or without armrests and is suitable for both home and commercial settings. It is contract eligible.</p>
   <p>The structure features a plastic-coated aluminum base with five wheels. The chair is pneumatically adjustable for easy height adjustment.</p>
@@ -131,6 +132,7 @@ COUNTRY OF ORIGIN
   </ul>
   <p>Made in Italy.</p>
 </div>
+```
 ***
 ### Extraction 7
 Your task is to extract relevant information from a product review from an ecommerce site to give feedback to the Shipping department. 
