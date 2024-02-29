@@ -60,10 +60,10 @@ I collected 61 test questions from the Internet,  it includes:
 | -------- | ------- | -------- |
 | Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 24G  | >= GTX-3090 |
 | openchat-3.5-0106.Q8_0.gguf | 9.4G | >= GTX-3080 |
-| gemma-2b-it.Q8_0.gguf  |  |  |
-| phi-2.Q8_0.gguf  |  |  |
-| gemma-7b-it.Q8_0-v2.gguf  |  |  |
-| qwen1_5-1_8b-chat-q8_0.gguf  |  | |
+| gemma-7b-it.Q8_0-v2.gguf | 15G | >= GTX-3080 |
+| gemma-2b-it.Q8_0.gguf |  | >= GTX-3070 |
+| phi-2.Q8_0.gguf  |  | >= GTX-3070  |
+| qwen1_5-1_8b-chat-q8_0.gguf  |  | >= GTX-3070 |
 
 ### Run in local
 
