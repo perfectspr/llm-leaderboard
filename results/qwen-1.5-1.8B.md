@@ -1347,7 +1347,7 @@ Since there is no remaining apple for the remaining children, you don't need any
 ### Math 2
 What is 1+4+2+1?
 ### Expected Answer
-9
+8
 
 ### Received Answer
 The sum of 1, 4, 2, and 1 is:

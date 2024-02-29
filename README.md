@@ -17,7 +17,7 @@ I collected 61 test questions from the Internet,  it includes:
 * [Writing](questions/writing.md) (4)
 
 ### My favourite models
-
+* [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](https://huggingface.co/chat/settings/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO)
 * [openchat-3.5-0106.Q8_0.gguf](https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF)
 * [gemma-2b-it.Q8_0.gguf](https://huggingface.co/brittlewis12/gemma-2b-it-GGUF)
 * [gemma-7b-it.Q8_0-v2.gguf](https://huggingface.co/sayhan/gemma-7b-it-GGUF-quantized)
@@ -35,11 +35,12 @@ I collected 61 test questions from the Internet,  it includes:
 
 | Model    | Total | Knowledge | Coding | Censorship | Instruction | Math | Extraction | Reasoning | Summarizing | Writing |
 | -------- | ------- | -------- | ------- | -------- | ------- | -------- | ------- | -------- | ------- | ------- |
-| openchat-3.5-0106.Q8_0.gguf | 50  | 7 | 7 | 6 | 6 | 4 | 7 | 4 | 6 | 3 |
-| gemma-2b-it.Q8_0.gguf  | 36  | 3 | 6 | 6 | 3 | 2 | 3 | 4 | 6 | 3 |
+| Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
+| openchat-3.5-0106.Q8_0.gguf | 53  | 7 | 8 | 6 | 6 | 5 | 7 | 4 | 6 | 3 |
+| gemma-2b-it.Q8_0.gguf  | 36  | 3 | 7 | 6 | 3 | 2 | 2 | 4 | 6 | 3 |
+| phi-2.Q8_0.gguf  | 26  | 6 | 5 | 5 | 3 | 3 | 1 | 2 | 1 | 0 |
 | gemma-7b-it.Q8_0-v2.gguf  | 25  | 6 | 2 | 6 | 2 | 0 | 4 | 3 | 2 | 0 |
-| qwen1_5-1_8b-chat-q8_0.gguf  | 24  | 3 | 5 | 3 | 2 | 0 | 5 | 2 | 2 | 2 |
-| phi-2.Q8_0.gguf  | 24  | 6 | 4 | 5 | 3 | 2 | 1 | 2 | 1 | 0 |
+| qwen1_5-1_8b-chat-q8_0.gguf  | 25  | 3 | 5 | 3 | 2 | 1 | 5 | 2 | 2 | 2 |
 
 #### Noetes
 * gemma-2b-it is the best 2b models that I have tested, but there is still a big gap with the 7b models.
@@ -47,10 +48,9 @@ I collected 61 test questions from the Internet,  it includes:
 
 ### Detailed result
 
+* [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](results/Nous-Hermes-2-Mixtral-8x7B-DPO.md)
 * [openchat-3.5-0106.Q8_0.gguf](./results/openchat.md)
 * [gemma-2b-it.Q8_0.gguf](./results/gemma-2b.md)
 * [gemma-7b-it.Q8_0-v2.gguf](./results/gemma-7b.md)
 * [qwen1_5-1_8b-chat-q8_0.gguf](./results/qwen-1.5-1.8B.md)
 * [phi-2.Q8_0.gguf](./results/phi-2.csv)
-
-

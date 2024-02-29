@@ -846,7 +846,7 @@ So, you need 2525 apples in total.
 ### Math 2
 What is 1+4+2+1?
 ### Expected Answer
-9
+8
 
 ### Received Answer
 The sum of the numbers 1, 4, 2, and 1 is 8. So, 1 + 4 + 2 + 1 = 8.

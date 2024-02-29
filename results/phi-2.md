@@ -768,7 +768,7 @@ Sure, let's break it down step by step. It seems like the number of apples given
 ### Math 2
 What is 1+4+2+1?
 ### Expected Answer
-9
+8
 
 ### Received Answer
 The answer is 8.

@@ -896,7 +896,7 @@ And so on.
 ### Math 2
 What is 1+4+2+1?
 ### Expected Answer
-9
+8
 
 ### Received Answer
 The answer is 9.
