@@ -764,6 +764,7 @@ no
 Student grade:
 ```
 incorrect
+```
 ***
 ### Instruction 6
 Your task is to perform the following actions: 
