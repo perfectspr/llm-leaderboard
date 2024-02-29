@@ -7,7 +7,7 @@ There are total 100 children. I have to give 1 apple to first child, 2 apples to
 ### Math 2
 What is 1+4+2+1?
 ### Answer
-9
+8
 ***
 ### Math 3
 A psychiatrist has 4 patients that need 25 sessions in total. One of the patients needs 6 sessions. Another patient needs 5 more than that. How many sessions would the remaining patients need?
