@@ -17,7 +17,7 @@ I collected 61 test questions from the Internet,  it includes:
 * [Writing](questions/writing.md) (4)
 
 ### My favourite models
-* [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](https://huggingface.co/chat/settings/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO)
+* [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-DPO-GGUF)
 * [openchat-3.5-0106.Q8_0.gguf](https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF)
 * [gemma-7b-it.Q8_0.gguf](https://huggingface.co/MaziyarPanahi/gemma-7b-it-GGUF)
 * [gemma-2b-it.Q8_0.gguf](https://huggingface.co/brittlewis12/gemma-2b-it-GGUF)
@@ -55,15 +55,15 @@ I collected 61 test questions from the Internet,  it includes:
 * [qwen1_5-1_8b-chat-q8_0.gguf](./results/qwen-1.5-1.8B.md)
 * [phi-2.Q8_0.gguf](./results/phi-2.csv)
 
-### VRAM requirements
-| Model    | VRAM | GPUs |
-| -------- | ------- | -------- |
-| Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 24G  | >= GTX-3090 |
-| openchat-3.5-0106.Q8_0.gguf | 9.4G | >= GTX-3080 |
-| gemma-7b-it.Q8_0.gguf | 15G | >= GTX-3080 |
-| gemma-2b-it.Q8_0.gguf |  | >= GTX-3070 |
-| phi-2.Q8_0.gguf  |  | >= GTX-3070  |
-| qwen1_5-1_8b-chat-q8_0.gguf  |  | >= GTX-3070 |
+### Model Info
+| Model    | Size | VRAM | GPUs |
+| -------- | ------- | ------- | -------- |
+| Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 28.4GB | 24G  | >= GTX-3090 |
+| openchat-3.5-0106.Q8_0.gguf | 7.7GB | 9.4G | >= GTX-3080 |
+| gemma-7b-it.Q8_0.gguf | 9.1GB | 15G | >= GTX-3080 |
+| gemma-2b-it.Q8_0.gguf |  |  | >= GTX-3070 |
+| phi-2.Q8_0.gguf  |  |  | >= GTX-3070  |
+| qwen1_5-1_8b-chat-q8_0.gguf  |  |  | >= GTX-3070 |
 
 ### Run in local
 
