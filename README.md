@@ -19,8 +19,8 @@ I collected 61 test questions from the Internet,  it includes:
 ### My favourite models
 * [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](https://huggingface.co/chat/settings/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO)
 * [openchat-3.5-0106.Q8_0.gguf](https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF)
+* [gemma-7b-it.Q8_0.gguf](https://huggingface.co/MaziyarPanahi/gemma-7b-it-GGUF)
 * [gemma-2b-it.Q8_0.gguf](https://huggingface.co/brittlewis12/gemma-2b-it-GGUF)
-* [gemma-7b-it.Q8_0-v2.gguf](https://huggingface.co/sayhan/gemma-7b-it-GGUF-quantized)
 * [qwen1_5-1_8b-chat-q8_0.gguf](https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-GGUF)
 * [phi-2.Q8_0.gguf](https://huggingface.co/TheBloke/phi-2-GGUF)
 
@@ -37,7 +37,7 @@ I collected 61 test questions from the Internet,  it includes:
 | -------- | ------- | -------- | ------- | -------- | ------- | -------- | ------- | -------- | ------- | ------- |
 | Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
 | openchat-3.5-0106.Q8_0.gguf | 53  | 7 | 8 | 6 | 6 | 5 | 7 | 4 | 6 | 3 |
-| gemma-7b-it.Q8_0-v2.gguf  | 44  | 6 | 7 | 6 | 5 | 4 | 5 | 2 | 6 | 3 |
+| gemma-7b-it.Q8_0.gguf  | 44  | 6 | 7 | 6 | 5 | 4 | 5 | 2 | 6 | 3 |
 | gemma-2b-it.Q8_0.gguf  | 36  | 3 | 7 | 6 | 3 | 2 | 2 | 4 | 6 | 3 |
 | phi-2.Q8_0.gguf  | 26  | 6 | 5 | 5 | 3 | 3 | 1 | 2 | 1 | 0 |
 | qwen1_5-1_8b-chat-q8_0.gguf  | 25  | 3 | 5 | 3 | 2 | 1 | 5 | 2 | 2 | 2 |
@@ -51,7 +51,7 @@ I collected 61 test questions from the Internet,  it includes:
 * [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](results/Nous-Hermes-2-Mixtral-8x7B-DPO.md)
 * [openchat-3.5-0106.Q8_0.gguf](./results/openchat.md)
 * [gemma-2b-it.Q8_0.gguf](./results/gemma-2b.md)
-* [gemma-7b-it.Q8_0-v2.gguf](./results/gemma-7b.md)
+* [gemma-7b-it.Q8_0.gguf](./results/gemma-7b.md)
 * [qwen1_5-1_8b-chat-q8_0.gguf](./results/qwen-1.5-1.8B.md)
 * [phi-2.Q8_0.gguf](./results/phi-2.csv)
 
@@ -60,24 +60,24 @@ I collected 61 test questions from the Internet,  it includes:
 | -------- | ------- | -------- |
 | Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 24G  | >= GTX-3090 |
 | openchat-3.5-0106.Q8_0.gguf | 9.4G | >= GTX-3080 |
-| gemma-7b-it.Q8_0-v2.gguf | 15G | >= GTX-3080 |
+| gemma-7b-it.Q8_0.gguf | 15G | >= GTX-3080 |
 | gemma-2b-it.Q8_0.gguf |  | >= GTX-3070 |
 | phi-2.Q8_0.gguf  |  | >= GTX-3070  |
 | qwen1_5-1_8b-chat-q8_0.gguf  |  | >= GTX-3070 |
 
 ### Run in local
 
-#### Install Dependencies
+#### 1. Install Dependencies
 
 ```bash
-CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install -r requirements.tx
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install -r requirements.txt
 ```
 
-#### Download Models
+#### 2. Download Models
 
 Download models from huggingface and put gguf files to `models` folder.
 
-#### Create model config file
+#### 3. Create model config file
 
 Create model config file in `models` folder, here is an example:
 ``` json
@@ -89,7 +89,7 @@ Create model config file in `models` folder, here is an example:
 }
 ```
 
-#### Evaluation
+#### 4. Evaluation
 ```bash
 python evaluate.py -m models/gemma-7b-it.json
 ```
