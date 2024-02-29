@@ -1,3 +1,3 @@
-llama_cpp_python==0.2.52
+llama_cpp_python
 python-dotenv
 tqdm

@@ -54,3 +54,42 @@ I collected 61 test questions from the Internet,  it includes:
 * [gemma-7b-it.Q8_0-v2.gguf](./results/gemma-7b.md)
 * [qwen1_5-1_8b-chat-q8_0.gguf](./results/qwen-1.5-1.8B.md)
 * [phi-2.Q8_0.gguf](./results/phi-2.csv)
+
+### VRAM requirements
+| Model    | VRAM | GPUs |
+| -------- | ------- | -------- |
+| Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 24G  | >= GTX-3090 |
+| openchat-3.5-0106.Q8_0.gguf | 9.4G | >= GTX-3080 |
+| gemma-2b-it.Q8_0.gguf  |  |  |
+| phi-2.Q8_0.gguf  |  |  |
+| gemma-7b-it.Q8_0-v2.gguf  |  |  |
+| qwen1_5-1_8b-chat-q8_0.gguf  |  | |
+
+### Run in local
+
+#### Install Dependencies
+
+```bash
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install -r requirements.tx
+```
+
+#### Download Models
+
+Download models from huggingface and put gguf files to `models` folder.
+
+#### Create model config file
+
+Create model config file in `models` folder, here is an example:
+``` json
+{
+  "name": "gemma-2b",
+  "chatFormat": "gemma",
+  "modelPath": "gemma-2b-it.Q8_0.gguf",
+  "context": 8192
+}
+```
+
+#### Evaluation
+```bash
+python evaluate.py -m models/gemma-7b-it.json
+```
