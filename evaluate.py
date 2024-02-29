@@ -27,7 +27,7 @@ def load_questions():
     return questions
 
 
-def generate(llm, prompt):
+def generate(llm, prompt, repeat_penalty):
     return llm.create_chat_completion(
         messages=[
             {
@@ -38,6 +38,7 @@ def generate(llm, prompt):
         ],
         temperature=0.1,
         max_tokens=1024,
+        repeat_penalty=repeat_penalty,
     )["choices"][0]["message"]["content"].strip()
 
 
@@ -58,7 +59,7 @@ def main(model_config_file):
     questions = load_questions()
     with open("results/" + config["name"] + ".md", "w") as f:
         for q in tqdm(questions):
-            answer = generate(llm, q["question"])
+            answer = generate(llm, q["question"], config.get("repeatPenalty", 1.1))
             f.writelines(
                 [
                     "***",
