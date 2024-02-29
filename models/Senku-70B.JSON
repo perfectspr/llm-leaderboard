@@ -1,0 +1,7 @@
+
+{
+  "name": "senku-70b",
+  "chatFormat": "chatml",
+  "modelPath": "ggml-senku-70b-iq2_xxs.gguf",
+  "context": 8192
+}
