@@ -1,6 +1,6 @@
 {
   "name": "smaug-34b-v0.1",
   "chatFormat": "llama-2",
-  "modelPath": "smaug-34b-v0.1.Q5_K_M.gguf",
+  "modelPath": "Smaug-34B-v0.1_Q4_K_M.gguf",
   "context": 8192
 }

@@ -17,6 +17,10 @@ I collected 61 test questions from the Internet,  it includes:
 * [Writing](questions/writing.md) (4)
 
 ### My favourite models
+[miqu-1-70b-Requant-b2007-iMat-c32_ch400-IQ2_XS.gguf](https://huggingface.co/Nexesenex/MIstral-QUantized-70b_Miqu-1-70b-iMat.GGUF)
+[Smaug-34B-v0.1_Q4_K_M.gguf](https://huggingface.co/nold/Smaug-34B-v0.1-GGUF)
+[nous-capybara-34b.Q4_K_M.gguf](https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF)
+* [ggml-senku-70b-iq2_xxs.gguf](https://huggingface.co/dranger003/Senku-70B-iMat.GGUF)
 * [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-DPO-GGUF)
 * [openchat-3.5-0106.Q8_0.gguf](https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF)
 * [gemma-7b-it.Q8_0.gguf](https://huggingface.co/MaziyarPanahi/gemma-7b-it-GGUF)
@@ -35,6 +39,9 @@ I collected 61 test questions from the Internet,  it includes:
 
 | Model    | Total | Knowledge | Coding | Censorship | Instruction | Math | Extraction | Reasoning | Summarizing | Writing |
 | -------- | ------- | -------- | ------- | -------- | ------- | -------- | ------- | -------- | ------- | ------- |
+| miqu-1-70b-Requant-b2007-iMat-c32_ch400-IQ2_XS.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
+| ggml-senku-70b-iq2_xxs.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
+| nous-capybara-34b.Q4_K_M.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
 | Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
 | openchat-3.5-0106.Q8_0.gguf | 53  | 7 | 8 | 6 | 6 | 5 | 7 | 4 | 6 | 3 |
 | gemma-7b-it.Q8_0.gguf  | 44  | 6 | 7 | 6 | 5 | 4 | 5 | 2 | 6 | 3 |
@@ -48,6 +55,7 @@ I collected 61 test questions from the Internet,  it includes:
 
 ### Detailed result
 
+* [miqu-1-70b-Requant-b2007-iMat-c32_ch400-IQ2_XS.gguf](./results/miqu-1-70b.md)
 * [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](results/Nous-Hermes-2-Mixtral-8x7B-DPO.md)
 * [openchat-3.5-0106.Q8_0.gguf](./results/openchat.md)
 * [gemma-2b-it.Q8_0.gguf](./results/gemma-2b.md)
@@ -58,9 +66,13 @@ I collected 61 test questions from the Internet,  it includes:
 ### Model Info
 | Model    | Size | VRAM | GPUs |
 | -------- | ------- | ------- | -------- |
-| Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 28.4GB | 24G  | >= GTX-3090 |
-| openchat-3.5-0106.Q8_0.gguf | 7.7GB | 9.4G | >= GTX-3080 |
-| gemma-7b-it.Q8_0.gguf | 9.1GB | 15G | >= GTX-3080 |
+| miqu-1-70b-Requant-b2007-iMat-c32_ch400-IQ2_XS.gguf | 19G | 23.8G  | >= GTX-3090 |
+
+| Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 28.4G | 24G  | >= GTX-3090 |
+| nous-capybara-34b.Q4_K_M.gguf | 23.8 | 24G  | >= GTX-3090 |
+| | 28.4G | 24G  | >= GTX-3090 |
+| openchat-3.5-0106.Q8_0.gguf | 7.7G | 9.4G | >= GTX-3080 |
+| gemma-7b-it.Q8_0.gguf | 9.1G | 15G | >= GTX-3080 |
 | gemma-2b-it.Q8_0.gguf |  |  | >= GTX-3070 |
 | phi-2.Q8_0.gguf  |  |  | >= GTX-3070  |
 | qwen1_5-1_8b-chat-q8_0.gguf  |  |  | >= GTX-3070 |

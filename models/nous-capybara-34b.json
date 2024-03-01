@@ -1,0 +1,6 @@
+{
+  "name": "nous-capybara-34b",
+  "chatFormat": "vicuna",
+  "modelPath": "nous-capybara-34b.Q4_K_M.gguf",
+  "context": 8192
+}
