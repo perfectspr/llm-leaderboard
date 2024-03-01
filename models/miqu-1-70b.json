@@ -1,0 +1,6 @@
+{
+  "name": "miqu-1-70b",
+  "chatFormat": "mistral-instruct",
+  "modelPath": "miqu-1-70b-Requant-b2007-iMat-c32_ch400-IQ2_XS.gguf",
+  "context": 8192
+}

@@ -1,0 +1,7 @@
+{
+  "name": "qwen1.5-72b-chat",
+  "chatFormat": "chatml",
+  "modelPath": "ggml-qwen1.5-72b-chat-iq2_xxs.gguf",
+  "context": 8192,
+  "gpuLayers": 40
+}
