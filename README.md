@@ -62,14 +62,14 @@ I collected 61 test questions from the Internet,  it includes:
 
 ### Model Info
 
-| Model    | Size | VRAM | GPUs |
+| Model    | Size | Required VRAM | Required GPUs |
 | -------- | ------- | ------- | -------- |
 | miqu-1-70b-iq2_xs.gguf | 19G | 23.8G  | >= RTX-3090 |
-| senku-70b-iq2_xxs.gguf| 20G | 19G  | >= RTX-3090 |
+| senku-70b-iq2_xxs.gguf| 20G | 22G  | >= RTX-3090 |
 | Smaug-34B-v0.1_Q4_K_M.gguf | 20G | 23.8G  | >= RTX-3090 |
 | nous-capybara-34b.Q4_K_M.gguf | 20G | 23.8G  | >= RTX-3090 |
 | Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 28.4G | >24G  | >= RTX-3090 |
-| openchat-3.5-0106.Q8_0.gguf | 7.7G | 9.4G | >= RTX-3080 |
+| openchat-3.5-0106.Q8_0.gguf | 7.7G | 9.4G | >= RTX-3070 |
 | gemma-7b-it.Q8_0.gguf | 9.1G | 15G | >= RTX-3080 |
 | gemma-2b-it.Q8_0.gguf |  |  | >= RTX-3070 |
 | phi-2.Q8_0.gguf  |  |  | >= RTX-3070  |
