@@ -6,11 +6,11 @@ Evaluating the capabilities of large language models is very difficult. There ar
 
 | Model    | Total | Knowledge | Coding | Censorship | Instruction | Math | Extraction | Reasoning | Summarizing | Writing |
 | -------- | ------- | -------- | ------- | -------- | ------- | -------- | ------- | -------- | ------- | ------- |
-| miqu-1-70b-iq2_xs.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
-| senku-70b-iq2_xxs.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
-| nous-capybara-34b.Q4_K_M.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
 | Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
-| openchat-3.5-0106.Q8_0.gguf | 53  | 7 | 8 | 6 | 6 | 5 | 7 | 4 | 6 | 3 |
+| senku-70b-iq2_xxs.gguf | 55  |  |  |  |  |  |  |  |  | 3 |
+| miqu-1-70b-iq2_xs.gguf | 54  | 7 | 8 | 6 | 6 | 3 | 6 | 8 | 6 | 4 |
+| nous-capybara-34b.Q4_K_M.gguf | 46  | 6 | 6 | 3 | 6 | 3 | 7 | 5 | 6 | 4 |
+| openchat-3.5-0106.Q8_0.gguf | 52  | 7 | 8 | 6 | 6 | 5 | 7 | 4 | 6 | 3 |
 | gemma-7b-it.Q8_0.gguf  | 44  | 6 | 7 | 6 | 5 | 4 | 5 | 2 | 6 | 3 |
 | gemma-2b-it.Q8_0.gguf  | 36  | 3 | 7 | 6 | 3 | 2 | 2 | 4 | 6 | 3 |
 | phi-2.Q8_0.gguf  | 26  | 6 | 5 | 5 | 3 | 3 | 1 | 2 | 1 | 0 |
