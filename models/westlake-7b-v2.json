@@ -1,0 +1,6 @@
+{
+  "name": "westlake-7b-v2",
+  "chatFormat": "chatml",
+  "modelPath": "westlake-7b-v2.Q8_0.gguf",
+  "context": 8192
+}
