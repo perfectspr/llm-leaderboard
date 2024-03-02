@@ -23,16 +23,16 @@ Evaluating the capabilities of large language models is very difficult. There ar
 
 ### Detailed Results
 
-* [miqu-1-70b-iq2_xs.gguf](./results/miqu-1-70b.md)
-* [senku-70b-iq2_xxs.gguf](./results/senku-70b.md)
-* [Smaug-34B-v0.1_Q4_K_M.gguf](./results/smaug-34b-v0.1.md)
-* [nous-capybara-34b.Q4_K_M.gguf](./results/nous-capybara-34b.md)
 * [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](results/Nous-Hermes-2-Mixtral-8x7B-DPO.md)
+* [miqu-1-70b-iq2_xs.gguf](./results/miqu-1-70b.md)
+* [Smaug-34B-v0.1_Q4_K_M.gguf](./results/smaug-34b-v0.1.md)
+* [senku-70b-iq2_xxs.gguf](./results/senku-70b.md)
 * [openchat-3.5-0106.Q8_0.gguf](./results/openchat.md)
-* [gemma-2b-it.Q8_0.gguf](./results/gemma-2b.md)
+* [nous-capybara-34b.Q4_K_M.gguf](./results/nous-capybara-34b.md)
 * [gemma-7b-it.Q8_0.gguf](./results/gemma-7b.md)
-* [qwen1_5-1_8b-chat-q8_0.gguf](./results/qwen-1.5-1.8B.md)
+* [gemma-2b-it.Q8_0.gguf](./results/gemma-2b.md)
 * [phi-2.Q8_0.gguf](./results/phi-2.csv)
+* [qwen1_5-1_8b-chat-q8_0.gguf](./results/qwen-1.5-1.8B.md)
 
 ### Evaluation Questions
 
@@ -50,12 +50,12 @@ I collected 61 test questions from the Internet,  it includes:
 
 ### Download Models
 
-* [miqu-1-70b-iq2_xs.gguf](https://huggingface.co/Nexesenex/MIstral-QUantized-70b_Miqu-1-70b-iMat.GGUF)
-* [senku-70b-iq2_xxs.gguf](https://huggingface.co/dranger003/Senku-70B-iMat.GGUF)
-* [Smaug-34B-v0.1_Q4_K_M.gguf](https://huggingface.co/nold/Smaug-34B-v0.1-GGUF)
-* [nous-capybara-34b.Q4_K_M.gguf](https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF)
 * [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-DPO-GGUF)
+* [miqu-1-70b-iq2_xs.gguf](https://huggingface.co/Nexesenex/MIstral-QUantized-70b_Miqu-1-70b-iMat.GGUF)
+* [Smaug-34B-v0.1_Q4_K_M.gguf](https://huggingface.co/nold/Smaug-34B-v0.1-GGUF)
 * [openchat-3.5-0106.Q8_0.gguf](https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF)
+* [senku-70b-iq2_xxs.gguf](https://huggingface.co/dranger003/Senku-70B-iMat.GGUF)
+* [nous-capybara-34b.Q4_K_M.gguf](https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF)
 * [gemma-7b-it.Q8_0.gguf](https://huggingface.co/MaziyarPanahi/gemma-7b-it-GGUF)
 * [gemma-2b-it.Q8_0.gguf](https://huggingface.co/brittlewis12/gemma-2b-it-GGUF)
 * [qwen1_5-1_8b-chat-q8_0.gguf](https://huggingface.co/Qwen/Qwen1.5-1.8B-Chat-GGUF)
