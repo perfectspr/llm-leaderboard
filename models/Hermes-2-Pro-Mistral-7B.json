@@ -1,0 +1,6 @@
+{
+  "name": "Hermes-2-Pro-Mistral-7B",
+  "chatFormat": "chatml",
+  "modelPath": "Hermes-2-Pro-Mistral-7B.Q8_0.gguf",
+  "context": 8192
+}
