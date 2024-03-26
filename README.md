@@ -9,6 +9,7 @@ Evaluating the capabilities of large language models is very difficult. There ar
 | Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 55  | 6 | 8 | 5 | 6 | 5 | 7 | 8 | 6 | 4 |
 | miqu-1-70b-iq2_xs.gguf | 54  | 7 | 8 | 6 | 6 | 3 | 6 | 8 | 6 | 4 |
 | Smaug-34B-v0.1_Q4_K_M.gguf | 53 | 7 | 8 | 6 | 5 | 4 | 6 |  7 | 6 | 4 |
+| Starling-LM-7B-beta-Q8_0.gguf | 52  | 6 | 8 | 6 | 6 | 5 | 7 | 5 | 6 | 3 |
 | openchat-3.5-0106.Q8_0.gguf | 52  | 7 | 8 | 6 | 6 | 5 | 7 | 4 | 6 | 3 |
 | senku-70b-iq2_xxs.gguf | 51  | 6 | 8 | 6  | 7 | 5 | 6 | 4  | 6  | 3 |
 | Hermes-2-Pro-Mistral-7B.Q8_0.gguf | 48 | 6 | 8 | 4 | 5 | 5 | 6 | 6 | 6 | 2 |
@@ -30,6 +31,7 @@ Evaluating the capabilities of large language models is very difficult. There ar
 * [Smaug-34B-v0.1_Q4_K_M.gguf](./results/smaug-34b-v0.1.md)
 * [senku-70b-iq2_xxs.gguf](./results/senku-70b.md)
 * [openchat-3.5-0106.Q8_0.gguf](./results/openchat.md)
+* [Starling-LM-7B-beta-Q8_0.gguf](./results/starling-lm-7b-beta.md)
 * [nous-capybara-34b.Q4_K_M.gguf](./results/nous-capybara-34b.md)
 * [gemma-7b-it.Q8_0.gguf](./results/gemma-7b.md)
 * [gemma-2b-it.Q8_0.gguf](./results/gemma-2b.md)
@@ -55,6 +57,7 @@ I collected 61 test questions from the Internet,  it includes:
 * [Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf](https://huggingface.co/TheBloke/Nous-Hermes-2-Mixtral-8x7B-DPO-GGUF)
 * [miqu-1-70b-iq2_xs.gguf](https://huggingface.co/Nexesenex/MIstral-QUantized-70b_Miqu-1-70b-iMat.GGUF)
 * [Smaug-34B-v0.1_Q4_K_M.gguf](https://huggingface.co/nold/Smaug-34B-v0.1-GGUF)
+* [Starling-LM-7B-beta-Q8_0.gguf](https://huggingface.co/bartowski/Starling-LM-7B-beta-GGUF)
 * [openchat-3.5-0106.Q8_0.gguf](https://huggingface.co/TheBloke/openchat-3.5-1210-GGUF)
 * [senku-70b-iq2_xxs.gguf](https://huggingface.co/dranger003/Senku-70B-iMat.GGUF)
 * [nous-capybara-34b.Q4_K_M.gguf](https://huggingface.co/TheBloke/Nous-Capybara-34B-GGUF)
@@ -73,6 +76,7 @@ I collected 61 test questions from the Internet,  it includes:
 | nous-capybara-34b.Q4_K_M.gguf | 20G | 23.8G  | >= RTX-3090 |
 | Nous-Hermes-2-Mixtral-8x7B-DPO.Q4_K_M.gguf | 28.4G | >24G  | >= RTX-3090 |
 | openchat-3.5-0106.Q8_0.gguf | 7.7G | 9.4G | >= RTX-3070 |
+| Starling-LM-7B-beta-Q8_0.gguf | 7.7G | 9.4G | >= RTX-3070 |
 | gemma-7b-it.Q8_0.gguf | 9.1G | 15G | >= RTX-3080 |
 | gemma-2b-it.Q8_0.gguf |  |  | >= RTX-3070 |
 | phi-2.Q8_0.gguf  |  |  | >= RTX-3070  |
